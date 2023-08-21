@@ -1,0 +1,14 @@
+{
+  "name": "111f819236044eea",
+  "main": "111f819236044eea@83.js",
+  "version": "83.0.0",
+  "homepage": "https://observablehq.com/d/111f819236044eea",
+  "author": {
+    "name": "資料可視化",
+    "url": "https://observablehq.com/@vis2023f-joyce"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
