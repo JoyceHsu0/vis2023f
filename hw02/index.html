@@ -199,64 +199,41 @@
           <th>配分</th>
           <th>分項描述</th>
         </tr>
-<!--
+
         <tr>
           <td rowspan="16" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1_1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
           <td id='m1'>2</td>
           <td>Simple baseline-1 - 以histogram呈現每個年份出生的人數</td>
         </tr>
 
          <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1_2"></td>
-          <td id='m1_2'>1</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td id='m2'>1</td>
           <td>Simple baseline-2 - 可調整margin, fill color, tip</td>
         </tr>
         
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2_1"></td>
-          <td id='m2'>2</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td id='m3'>2</td>
           <td>Medium baseline-1 - 以bar chart呈現每個年份出生的人數</td>
         </tr>
 
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2_2"></td>
-          <td id='m2_2'>1</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
+          <td id='m4'>1</td>
           <td>Medium baseline-2 - 可調整margin, fill color, tip </td>
         </tr>
         
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3_1"></td>
-          <td id='m3'>2</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox5"></td>
+          <td id='m5'>2</td>
           <td>Strong baseline-1 - 以bar chart呈現每個星座的人數 </td>
         </tr>
 
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3_2"></td>
-          <td id='m3_2'>2</td>
-          <td>Strong baseline-2 - 以histogram呈現每個星座的人數 </td>
-        </tr>
---!>
-        <tr>
-          <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
-          <td id='m1'>2</td>
-          <td>Simple baseline - 描述、描述、描述</td>
-        </tr>
-        <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
-          <td id='m2'>6</td>
-          <td>Medium baseline - 描述、描述、描述 </td>
-        </tr>
-        <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
-          <td id='m3'>2</td>
-          <td>Strong baseline - 描述、描述、描述 </td>
-        </tr>
-
-        <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3_2"></td>
-          <td id='m3_2'>2</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox6"></td>
+          <td id='m6'>2</td>
           <td>Strong baseline-2 - 以histogram呈現每個星座的人數 </td>
         </tr>
         
@@ -310,6 +287,18 @@
 
     if (d3.select("#myCheckbox3").property("checked")){
       score += parseInt(d3.select('#m3').html());   
+    }
+
+    if (d3.select("#myCheckbox4").property("checked")){
+      score += parseInt(d3.select('#m4').html());
+    }
+
+    if (d3.select("#myCheckbox5").property("checked")){
+      score += parseInt(d3.select('#m5').html());   
+    }
+
+    if (d3.select("#myCheckbox6").property("checked")){
+      score += parseInt(d3.select('#m6').html());   
     }
 
     d3.select("#myTotal").html(score);    
