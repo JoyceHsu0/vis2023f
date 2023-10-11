@@ -1,0 +1,14 @@
+{
+  "name": "7a3ceae5e23cc6b4",
+  "main": "7a3ceae5e23cc6b4@72.js",
+  "version": "72.0.0",
+  "homepage": "https://observablehq.com/d/7a3ceae5e23cc6b4",
+  "author": {
+    "name": "許加宜's Workspace",
+    "url": "https://observablehq.com/@hsu-jia-yi-xx"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
