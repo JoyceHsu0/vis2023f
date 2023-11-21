@@ -201,8 +201,8 @@
   <!-- <hr>------------------------------------------------> 
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      這次的作業雖然跟作業2看起來很像，但其實有蠻大的差距。作業6是使用svg來繪製堆疊柱狀圖，讓我學習到更多不同的技巧，另外
-      還有添加d3過渡過程和陰影的練習等，讓我收穫很多。
+      這次的作業雖然跟作業2看起來很像，但其實有蠻大的差距。作業6是使用svg來繪製堆疊柱狀圖，讓我學習到更多不同的技巧，
+      另外還有添加d3過渡過程和陰影的練習等，讓我收穫很多。
     </div>
   </div>
 
@@ -316,6 +316,18 @@
 
     if (d3.select("#myCheckbox3").property("checked")){
       score += parseInt(d3.select('#m3').html());   
+    }
+
+    if (d3.select("#myCheckbox4").property("checked")){
+      score += parseInt(d3.select('#m4').html());
+    }
+
+    if (d3.select("#myCheckbox5").property("checked")){
+      score += parseInt(d3.select('#m5').html());   
+    }
+
+    if (d3.select("#myCheckbox6").property("checked")){
+      score += parseInt(d3.select('#m6').html());   
     }
 
     d3.select("#myTotal").html(score);    
