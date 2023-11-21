@@ -1,6 +1,6 @@
 # HW04
 
-https://observablehq.com/d/0023171491d9ee27@89
+https://observablehq.com/d/0023171491d9ee27@98
 
 View this notebook in your browser by running a web server in this folder. For
 example:
@@ -14,7 +14,7 @@ import this module directly into your application. To npm install:
 
 ~~~sh
 npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/0023171491d9ee27@89.tgz?v=3
+npm install https://api.observablehq.com/d/0023171491d9ee27@98.tgz?v=3
 ~~~
 
 Then, import your notebook and the runtime as:
